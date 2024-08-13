@@ -1,0 +1,64 @@
+
+.container {
+    margin: 0 auto; /* 自动水平居中 */
+    padding: 0 20px; /* 在左右两侧添加20px的内边距 */
+    max-width: 800px; /* 设置最大宽度，以确保容器不会太宽 */
+  }
+
+.header {
+    background-color: #c9c8c8; 
+    padding: 10px; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+  }
+
+
+.subheader {
+    background-color: #c9c8c8; 
+    padding: 10px; 
+    border-radius: 4px; 
+    margin-bottom: 20px;
+  }
+
+  .highlighted-text {
+    color: red; /* 红色字体 */
+  }
+  .section-title ,.submit-btn
+  {
+    display: block;  /* 确保每个标签在独立的行上 */
+    margin-top: 10px;
+  }
+  
+
+
+  .article-section input,
+  .article-section textarea {
+    display: block;  /* 确保每个输入框在独立的行上 */
+    width: 100%;  /* 使输入框占满父元素的宽度 */
+    margin-top: 5px;
+  }
+  
+  .question-section input,
+  .question-section textarea{
+    display: block;  /* 确保每个输入框在独立的行上 */
+    width: 100%;  /* 使输入框占满父元素的宽度 */
+    margin-top: 5px;
+  }
+
+  .submit-btn {
+  
+    background-color: gray; 
+    color: rgb(5, 5, 5); 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+    text-align: center; 
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
